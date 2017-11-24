@@ -1,0 +1,7 @@
+[template]
+src   = "metrics.yml.tmpl"
+dest = "/opt/jmx_prometheus_httpserver/metrics.yml"
+keys = [
+ "/jmx/host",
+ "/jmx/port"
+]

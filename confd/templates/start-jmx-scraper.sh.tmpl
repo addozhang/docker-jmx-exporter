@@ -1,0 +1,2 @@
+#!/bin/sh
+java -jar /opt/jmx_prometheus_httpserver/jmx_prometheus_httpserver.jar {{ getv "/http/port" }} /opt/jmx_prometheus_httpserver/{{ getv "/jmx/exporter/config/file" }}
